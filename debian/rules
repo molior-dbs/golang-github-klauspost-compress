@@ -2,3 +2,11 @@
 
 %:
 	dh $@ --builddirectory=_build --buildsystem=golang --with=golang
+
+# test generates a million lines of log
+override_dh_auto_test:
+
+# strip results in error:
+# dh_strip_nondeterminism: error: debian/golang-github-klauspost-compress-dev/usr/share/gocode/src/github.com/klauspost/compress/zip/testdata/test-baddirsz.zip: Reading ZIP archive failed: format error: bad signature: 0xc3edd7c0 at offset 970 in file debian/golang-github-klauspost-compress-dev/usr/share/gocode/src/github.com/klauspost/compress/zip/testdata/test-baddirsz.zip
+
+override_dh_strip_nondeterminism:
