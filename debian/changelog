@@ -1,11 +1,9 @@
-golang-github-klauspost-compress (1.16.3-4) UNRELEASED; urgency=medium
-
-  [ TODO ]
-  * Initial release (Closes: TODO)
+golang-github-klauspost-compress (1.16.3-5) UNRELEASED; urgency=medium
 
   [ André Roth ]
   * bump version 1.16.3-2
   * debian: fix source format
   * debian: use golang from backports
+  * debian: fix backports go
 
- -- André Roth <andre.roth@roche.com>  Sat, 18 Mar 2023 18:28:28 +0100
+ -- André Roth <andre.roth@roche.com>  Sat, 18 Mar 2023 18:30:15 +0100
