@@ -1,4 +1,4 @@
-golang-github-klauspost-compress (1.16.3-7) UNRELEASED; urgency=medium
+golang-github-klauspost-compress (1.16.3-8) UNRELEASED; urgency=medium
 
   [ André Roth ]
   * bump version 1.16.3-2
@@ -7,5 +7,6 @@ golang-github-klauspost-compress (1.16.3-7) UNRELEASED; urgency=medium
   * debian: fix backports go
   * debian: fix backport go
   * debian: fix backports go
+  * debian: disable tests and strip
 
- -- André Roth <andre.roth@roche.com>  Sat, 18 Mar 2023 18:34:26 +0100
+ -- André Roth <andre.roth@roche.com>  Sat, 18 Mar 2023 18:50:19 +0100
